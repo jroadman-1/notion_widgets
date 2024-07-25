@@ -58,12 +58,11 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
+		
 		<a id="Email" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Email</a>
-		<a id="Instagram" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-calendar-week"></i> Instagram</a>
-		<a id="Facebook" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Facebook</a>
-		<a id="Gallery" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Gallery</a>
-		<a id="Past_Meetings" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Past Meetings</a>
+		<a id="Instagram" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-square-instagram"></i> Instagram</a>
+		<a id="Facebook" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-facebook"></i> Facebook</a>
+		
 
 
 
@@ -80,19 +79,14 @@
 
 		function navigate(id) {
 
-			if (id == 'home')
-				window.location.href = "https://planet-perigee-cfb.notion.site/0f1492f5c3a14f538f4ba0a738c50e8f";
-			else if (id == "Email")
+			
+			if (id == "Email")
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "Instagram")
 				window.open("https://www.instagram.com/saluthiers/", '_blank').focus();
 			else if (id == "Facebook")
 				window.open("https://www.facebook.com/SanAntonioLuthiersGroup/", '_blank').focus();
-			else if (id == "Gallery")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "Past_Meetings")
-				window.location.href = "https://planet-perigee-cfb.notion.site/0f1492f5c3a14f538f4ba0a738c50e8f#f9e5422a3cac4ead97e827c97a3e0bbc";
-
+			
 		}
 	</script>
 
